@@ -1,0 +1,39 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* h1 {
+	line-height: 3.5rem;
+} */
+
+@use "sass:math" as math;
+
+// Flexbox display
+@mixin flexbox {
+	display: flex;
+}
+
+/*Crowdfund*/
+.crowdfund {
+	&__info {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		border: 1px solid $grey;
+		position: relative;
+		border-radius: 0.8rem;
+		padding: 2rem;
+		background-color: $white;
+		margin-top: -6rem;
+	}
+
+	&__logo {
+		position: absolute;
+		top: -4rem;
+		width: 5.6rem;
+		height: 5.6rem;
+	}
+}
