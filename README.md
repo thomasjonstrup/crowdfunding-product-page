@@ -1,5 +1,7 @@
 # Frontend Mentor - Crowdfunding product page
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3d34a83b-2008-4e0f-92bf-55522bd769f9/deploy-status)](https://app.netlify.com/sites/crowdfunding-product-page/deploys)
+
 ![Design preview for the Crowdfunding product page coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
