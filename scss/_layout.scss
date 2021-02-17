@@ -25,10 +25,19 @@
 		border: 1px solid $grey;
 		position: relative;
 		border-radius: 0.8rem;
-		padding: 4rem;
 		background-color: $white;
-		margin-top: -6rem;
+
 		text-align: center;
+		padding: 2rem;
+		margin: 2rem auto;
+
+		@include breakpoint-up(medium) {
+			padding: 4rem;
+		}
+	}
+
+	&__top {
+		margin-top: -6rem;
 	}
 
 	&__heading {
@@ -37,6 +46,36 @@
 
 	&__description {
 		color: $dark-grey;
+	}
+
+	&__buttons {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 1rem;
+	}
+
+	&__bookmark-cta {
+		background-color: $grey;
+		border-radius: 3rem;
+		display: flex;
+		justify-content: space-between;
+		cursor: pointer;
+		font-weight: 700;
+		align-items: center;
+
+		p {
+			padding: 0 1.25rem;
+			display: none;
+			@include breakpoint-up(medium) {
+				display: block;
+			}
+		}
+	}
+
+	&__bookmark {
+		width: 3.6rem;
+		height: 3.6rem;
 	}
 
 	&__logo {
