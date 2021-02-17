@@ -25,14 +25,23 @@
 		border: 1px solid $grey;
 		position: relative;
 		border-radius: 0.8rem;
-		padding: 2rem;
+		padding: 4rem;
 		background-color: $white;
 		margin-top: -6rem;
+		text-align: center;
+	}
+
+	&__heading {
+		font-weight: 600;
+	}
+
+	&__description {
+		color: $dark-grey;
 	}
 
 	&__logo {
 		position: absolute;
-		top: -4rem;
+		top: -3.3rem;
 		width: 5.6rem;
 		height: 5.6rem;
 	}

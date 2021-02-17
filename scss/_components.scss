@@ -47,7 +47,6 @@
 
 	@media (min-width: 768px) {
 		background-image: url("../images/image-hero-desktop.jpg");
-		padding-bottom: 10rem;
 	}
 }
 
@@ -208,11 +207,6 @@
 		box-shadow: -2px 4px 6px rgba(0, 0, 0, 0.15);
 		transform: translateX(2.2rem);
 	}
-}
-
-p {
-	/* 	color: $grayish-blue; */
-	font-size: 1rem;
 }
 
 // Card
