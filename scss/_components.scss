@@ -396,6 +396,21 @@
 	}
 }
 
+.progress {
+	&__container {
+		background-color: $grey;
+		border-radius: 1rem;
+		width: 100%;
+	}
+
+	&__inner {
+		background-color: $moderate-cyan;
+		width: 75%;
+		height: 1.6rem;
+		border-radius: 1rem;
+	}
+}
+
 // Range input
 input[type="range"] {
 	-webkit-appearance: none;
@@ -412,7 +427,7 @@ input[type="range"]:focus {
 	-webkit-appearance: none;
 	appearance: none;
 	height: 1rem;
-	//background: $soft-cyan;
+	background: $moderate-cyan;
 	/* 	background: linear-gradient(
 		to right,
 		$soft-cyan 0%,
@@ -420,28 +435,35 @@ input[type="range"]:focus {
 		$light-grayish-blue1 50%,
 		$light-grayish-blue1 100%
 	); */
+	background: linear-gradient(
+		to right,
+		#a5f3eb 0%,
+		#a5f3eb 50%,
+		#eaeefb 50%,
+		#eaeefb 100%
+	);
 	border-radius: 1rem;
 	outline: none;
 
 	&::-webkit-slider-thumb {
 		/* box-shadow: 0 0 20px 5px $SoftCyan; */
 		//box-shadow: 0 0 1rem 0.5rem $soft-cyan;
-		box-shadow: 0 12px 10px 5px hsla(174, 77%, 80%, 0.6);
+		//@extend: 0 12px 10px 5px hsla(174, 77%, 80%, 0.6);
 		border: 0px solid #000000;
 		height: 3.8rem;
 		width: 3.8rem;
 		border-radius: 50%;
-		/* 		background-color: $strong-cyan; */
+		/* 			background-color: $strong-cyan; */
 		/* 	background-image: url('../images/icon-slider.svg'); */
 		background-position: center;
 		background-repeat: no-repeat;
 		cursor: pointer;
 		-webkit-appearance: none;
 
-		&:active,
+		/* 	&:active,
 		&:hover {
 			background-color: hsl(176, 65%, 41%);
-		}
+		} */
 		/* 		margin-top: -3.6px; */
 	}
 
