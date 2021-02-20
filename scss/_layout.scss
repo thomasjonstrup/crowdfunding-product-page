@@ -36,6 +36,66 @@
 		}
 	}
 
+	&__description {
+		color: $dark-grey;
+		line-height: 3rem;
+		margin-bottom: 2rem;
+	}
+
+	&__heading {
+		font-size: 3rem;
+		font-weight: 700;
+		color: $black;
+	}
+
+	&__sub-heading {
+		font-size: 2rem;
+		font-weight: 700;
+		color: $black;
+	}
+
+	&__pledge {
+		color: $moderate-cyan;
+		font-weight: 500;
+	}
+
+	&__project {
+		display: flex;
+		/* 		justify-content: center; */
+		/* 		align-items: center; */
+		flex-direction: column;
+		border: 1px solid $grey;
+		position: relative;
+		border-radius: 0.8rem;
+		background-color: $white;
+		text-align: initial;
+
+		.btn {
+			width: 45%;
+		}
+
+		/* 		text-align: center; */
+		padding: 2rem;
+		margin: 2rem auto;
+
+		@include breakpoint-up(medium) {
+			padding: 4rem;
+		}
+	}
+
+	&__capacity {
+		span {
+			font-size: 2rem;
+			font-weight: 700;
+			color: $black;
+		}
+		margin-bottom: 3rem;
+	}
+
+	&__out-stocked {
+		opacity: 0.5;
+	}
+
 	&__top {
 		margin-top: -6rem;
 	}

@@ -32,21 +32,10 @@ html {
 body {
 	font-size: 1.6rem;
 	font-family: $font-family;
-	color: $black;
+	color: $dark-grey;
 	background-color: $grey;
-
 	line-height: 1.6;
-	/* 	background-image: linear-gradient($gradientViolet, $gradientBlue);
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	color: $very-dark-grayish-blue; */
-
-	/* 	background-color: $very-dark-blue; */
-
 	min-height: 100vh;
-	/* 	display: flex;
-	justify-content: center;
-	flex-direction: column; */
 }
 
 ul {
@@ -74,10 +63,6 @@ img {
 }
 
 main {
-	/* 	flex: 1;
-	display: flex;
-	justify-content: center;
-	align-items: center; */
 	min-height: 100vh;
 }
 
@@ -229,27 +214,6 @@ $breakpoints-down: (
 .text-center {
 	text-align: center;
 }
-
-/* Alert */
-/* .alert {
-	background-color: $light-color;
-	padding: 10px 20px;
-	font-weight: bold;
-	margin: 15px 0;
-
-	i {
-		margin-right: 10px;
-	}
-
-	&-success {
-		background-color: $success-color;
-		color: #fff;
-	}
-	&-error {
-		background-color: $error-color;
-		color: #fff;
-	}
-} */
 
 .flex {
 	display: flex;

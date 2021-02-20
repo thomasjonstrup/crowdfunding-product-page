@@ -12,10 +12,16 @@
 	text-decoration: none;
 	border: none;
 	cursor: pointer;
+	text-align: center;
 
 	@include modifier("outline") {
 		background-color: transparent;
 		border: 1px solid #fff;
+	}
+
+	@include modifier("outstock") {
+		background-color: $dark-grey;
+		color: $white;
 	}
 
 	// Buttons sizes
@@ -24,12 +30,6 @@
 	}
 	@include modifier("large") {
 		font-size: 1.6rem;
-	}
-
-	@include modifier("bordered-primary") {
-		background: #fff;
-		border: 1px solid #496ee8;
-		color: #496ee8;
 	}
 
 	@include modifier("primary") {
