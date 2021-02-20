@@ -63,15 +63,31 @@
 						and eye strain.
 					</p>
 					<div class="crowdfund__buttons">
-						<a href="#" class="btn btn--primary"
-							>Get it on Chrome</a
+						<a href="#" id="back-project" class="btn btn--primary"
+							>Back this project</a
 						>
 						<div class="crowdfund__bookmark-cta">
 							<div class="crowdfund__bookmark">
-								<img
-									src="./images/icon-bookmark.svg"
-									alt="icon-bookmark"
-								/>
+								<div class="icon">
+									<svg
+										width="56"
+										height="56"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<g fill="none" fill-rule="evenodd">
+											<circle
+												class="icon-fill"
+												cx="28"
+												cy="28"
+												r="28"
+											/>
+											<path
+												fill="#B1B1B1"
+												d="M23 19v18l5-5.058L33 37V19z"
+											/>
+										</g>
+									</svg>
+								</div>
 							</div>
 							<p class="crowdfund__description">Bookmark</p>
 						</div>
@@ -149,5 +165,30 @@
 				</div>
 			</div>
 		</section>
+		<div class="overlay">
+			<div class="modal">
+				<img
+					src="./images/icon-close-modal.svg"
+					alt="icon-close-modal"
+					class="modal__close"
+				/>
+				<h2 class="crowdfund__sub-heading">Back this project</h2>
+				<p>
+					Want to support us in bringing Mastercraft Bamboo Monitor
+					Riser out in the world?
+				</p>
+				<div class="crowdfund__project">
+					<h2 class="crowdfund__sub-heading">
+						Pledge with no reward
+					</h2>
+					<p class="crowdfund__description">
+						Choose to support us without a reward if you simply
+						believe in our project. As a backer, you will be signed
+						up to recieve product updates via email.
+					</p>
+				</div>
+			</div>
+		</div>
+		<script src="./js/main.js"></script>
 	</body>
 </html>

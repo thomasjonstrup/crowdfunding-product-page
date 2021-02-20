@@ -124,6 +124,20 @@
 		font-weight: 700;
 		align-items: center;
 
+		.icon-fill {
+			fill: #2f2f2f;
+		}
+
+		&.active {
+			p {
+				color: $dark-cyan;
+			}
+
+			.icon-fill {
+				fill: $dark-cyan;
+			}
+		}
+
 		p {
 			padding: 0 1.25rem;
 			display: none;
@@ -131,11 +145,6 @@
 				display: block;
 			}
 		}
-	}
-
-	&__bookmark {
-		width: 3.6rem;
-		height: 3.6rem;
 	}
 
 	&__logo {
